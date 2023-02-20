@@ -44,6 +44,14 @@
                 echo str_replace($badWord, '***', $text);
             ?>
         </p>
+
+        <h4>
+            Lunghezza paragrafo censurato: 
+            <?php
+                echo strlen(str_replace($badWord, '***', $text));
+            ?>
+            caratteri
+        </h4>
         
     </body>
 </html>
